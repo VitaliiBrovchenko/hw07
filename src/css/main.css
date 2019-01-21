@@ -3325,3 +3325,97 @@ template {
 
 [hidden] {
   display: none !important; }
+
+header {
+  font-family: 'Montserrat', sans-serif; }
+
+.row {
+  padding: 20px 0; }
+
+img {
+  padding: 20px 0; }
+
+.menu {
+  font-size: 14pt;
+  padding: 22px 0; }
+
+.menu_item {
+  list-style-type: none; }
+
+.menu_item a {
+  color: #80687b;
+  font-weight: 700; }
+
+.button {
+  padding: 23px 0; }
+
+.button__buy_now {
+  border: 1px solid #a285a9;
+  background-color: #a285a9;
+  color: #fdeaeb;
+  padding: 10px 30px;
+  border-radius: 18px;
+  font-weight: 700; }
+
+.fork_bg {
+  background: url(../img/bg_forck.png) no-repeat center top/cover;
+  height: 800px;
+  font-family: Montserrat, sans-serif; }
+
+.container {
+  padding: 20px; }
+
+h1 {
+  font-weight: 700;
+  font-size: 60pt;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px; }
+
+p {
+  font-family: lato, sans-serif;
+  font-size: 22pt;
+  color: #a285a9;
+  text-align: center;
+  padding: 0; }
+
+.version {
+  font-size: 12pt;
+  color: #9b9098;
+  text-align: center;
+  padding: 0; }
+
+.download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.download_a {
+  border: 1px solid #a285a9;
+  background-color: #a285a9;
+  color: #fdeaeb;
+  padding: 17px 55px;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 14pt;
+  position: relative;
+  bottom: 55px; }
+
+.download_p {
+  text-align: center;
+  color: #e5d1d1;
+  font-size: 12px;
+  position: relative;
+  bottom: 45px; }
+
+body {
+  background-color: #fff; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }

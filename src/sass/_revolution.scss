@@ -1,0 +1,23 @@
+.download {
+  display: flex;
+  justify-content: center;
+}
+.download_a{
+  border: 1px solid #a285a9 ;
+  background-color: #a285a9;
+  color: #fdeaeb;
+  padding: 17px 55px;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 14pt;
+  //text-align: center;
+  position: relative;
+  bottom: 55px;
+}
+.download_p {
+  text-align: center;
+  color: #e5d1d1;
+  font-size: 12px;
+  position: relative;
+  bottom: 45px;
+}

@@ -1,0 +1,32 @@
+header{
+  font-family: 'Montserrat', sans-serif;
+}
+.row {
+  padding: 20px 0;
+}
+img{
+  padding: 20px 0;
+}
+.menu {
+  font-size: 14pt;
+  padding: 22px 0;
+}
+
+.menu_item {
+  list-style-type: none;
+}
+.menu_item a {
+  color: #80687b;
+  font-weight: 700;
+}
+.button {
+  padding: 23px 0;
+}
+.button__buy_now {
+  border: 1px solid #a285a9 ;
+  background-color: #a285a9;
+  color: #fdeaeb;
+  padding: 10px 30px;
+  border-radius: 18px;
+  font-weight: 700;
+}

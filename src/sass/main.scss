@@ -1,2 +1,15 @@
 
 @import "libs.sass";
+@import "header.scss";
+@import "fork";
+@import "revolution";
+
+body{
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
