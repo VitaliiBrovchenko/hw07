@@ -10,7 +10,6 @@
   border-radius: 32px;
   font-weight: 700;
   font-size: 14pt;
-  //text-align: center;
   position: relative;
   bottom: 55px;
 }
@@ -20,4 +19,20 @@
   font-size: 12px;
   position: relative;
   bottom: 45px;
+}
+.revolution h2 {
+  color: #80687b;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40pt;
+  text-align: center;
+}
+.revolution p {
+  font-family: "Source Sanse Pro", sans-serif;
+  font-size: 12pt;
+  color: #919191;
+}
+.revolution_div_img {
+  display: flex;
+  justify-content: center;
 }

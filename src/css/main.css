@@ -3330,17 +3330,18 @@ header {
   font-family: 'Montserrat', sans-serif; }
 
 .row {
-  padding: 20px 0; }
+  padding: 15px 0; }
 
 img {
   padding: 20px 0; }
 
 .menu {
-  font-size: 14pt;
-  padding: 22px 0; }
+  font-size: 14px;
+  padding: 24px 0; }
 
 .menu_item {
-  list-style-type: none; }
+  list-style-type: none;
+  margin: 0 5px; }
 
 .menu_item a {
   color: #80687b;
@@ -3411,6 +3412,93 @@ p {
   position: relative;
   bottom: 45px; }
 
+.revolution h2 {
+  color: #80687b;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40pt;
+  text-align: center; }
+
+.revolution p {
+  font-family: "Source Sanse Pro", sans-serif;
+  font-size: 12pt;
+  color: #919191; }
+
+.revolution_div_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.what_you_get {
+  background: #f4f4f4; }
+
+.what_you_get h1 {
+  color: #8d81ac;
+  font-size: 35px; }
+
+.what_you_get h1:after {
+  content: '>'; }
+
+.what_you_get h1:before {
+  content: '<';
+  font-weight: 700; }
+
+.people_talk {
+  background: url(../img/base_copy.png) no-repeat center top/cover; }
+
+.people_talk h1 {
+  font-size: 35px;
+  color: #fdeaeb; }
+
+.w {
+  color: #f8b73e; }
+
+.people__block_text {
+  font-size: 16px;
+  font-family: "Source Sanse Pro", sans-serif;
+  font-weight: 700;
+  padding: 20px; }
+
+.people__logo {
+  text-align: center; }
+
+.pricing {
+  background: url(../img/base_copy.png) no-repeat center top/cover; }
+
+.pricing h1 {
+  color: #fdeaeb;
+  font-size: 35px;
+  font-weight: 700; }
+
+.subscribe {
+  background-color: #f4f4f4; }
+
+.subscribe h2 {
+  font-weight: 700;
+  color: #80687b;
+  font-size: 30px; }
+
+.button {
+  border: 1px solid #a285a9;
+  background-color: #a285a9;
+  color: #fdeaeb;
+  padding: 12px 55px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 13px; }
+
+.email {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #bfadb0;
+  padding: 12px 55px;
+  border-radius: 20px;
+  font-size: 13px;
+  text-align: left; }
+
 body {
   background-color: #fff; }
 
@@ -3418,4 +3506,5 @@ a {
   text-decoration: none; }
 
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff; }

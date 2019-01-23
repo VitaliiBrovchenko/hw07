@@ -3,6 +3,15 @@
 @import "header.scss";
 @import "fork";
 @import "revolution";
+@import "what_you_get";
+@import "testimonials";
+@import "carousel";
+@import "pricing";
+@import "subscribe";
+@import "future";
+@import "footer";
+
+
 
 body{
   background-color: #fff;
@@ -12,4 +21,5 @@ a {
 }
 a:hover {
   text-decoration: none;
+  color: #fff;
 }
