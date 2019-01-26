@@ -11,5 +11,10 @@
   &:before {
     content: '<';
   }
-
+}
+.how_match_description {
+  word-wrap: break-word;
+  font-size: 11px;
+  padding: 20px;
+  color: $primary-color;
 }

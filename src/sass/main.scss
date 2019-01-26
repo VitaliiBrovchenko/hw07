@@ -1,11 +1,10 @@
-
-
-
+$primary-color: #ffffff;
 
 body{
   background-color: #fff;
 }
 a {
+  color: $primary-color;
   text-decoration: none;
   &:hover{
     text-decoration-line: none;
@@ -17,7 +16,9 @@ li {
 }
 
 
+
 @import "libs";
+//@import "var";
 @import "header";
 @import "fork";
 @import "revolution";

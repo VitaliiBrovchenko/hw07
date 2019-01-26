@@ -2,6 +2,7 @@ body {
   background-color: #fff; }
 
 a {
+  color: #ffffff;
   text-decoration: none; }
   a:hover {
     -webkit-text-decoration-line: none;
@@ -3452,6 +3453,12 @@ p {
   .what_you_get h1:before {
     content: '<'; }
 
+.how_match_description {
+  word-wrap: break-word;
+  font-size: 11px;
+  padding: 20px;
+  color: #ffffff; }
+
 .people_talk {
   background: url(../img/base_copy.png) no-repeat center top/cover; }
 
@@ -3503,27 +3510,61 @@ p {
 .pricing {
   background: url(../img/pricing.png) no-repeat center top/cover; }
 
+.pricing_col {
+  background-color: #ffffff / cover;
+  opacity: 0.1; }
+
 .pricing h1 {
-  color: #fdeaeb;
+  color: #ffffff;
   font-size: 35px;
   font-weight: 700; }
 
 .pricing_line {
-  border-bottom: 1px solid #fdeaeb;
-  opacity: 0.5%;
+  border-bottom: 3px solid #ffffff;
+  background: #ffffff;
+  opacity: 0.2;
   position: relative;
   bottom: 20px; }
 
 .line {
   border-bottom: 3px solid #a285a9;
   width: 60px;
-  padding: 20px; }
+  padding: 20px;
+  margin: 0 auto;
+  opacity: 0.7; }
 
-.pricing h3 {
+.pricing_license {
   font-size: 17px;
   text-transform: uppercase;
-  color: #fdeaeb;
+  color: #ffffff;
   text-align: center; }
+
+.purchase_button {
+  border: 1px solid #907480;
+  background-color: #907480;
+  width: 160px;
+  margin: 0 auto;
+  opacity: 0.3;
+  padding: 10px 10px;
+  border-radius: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center; }
+
+.how_match_description {
+  font-size: 11px;
+  color: #ffffff; }
+
+.per_month {
+  color: #ffffff;
+  opacity: 0.3;
+  text-transform: uppercase;
+  font-size: 16px; }
+
+.how_match_price {
+  color: #ffffff;
+  font-size: 35px; }
 
 .subscribe {
   background-color: #f4f4f4; }
