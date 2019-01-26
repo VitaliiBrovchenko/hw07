@@ -1,15 +1,4 @@
 
-@import "libs.sass";
-@import "header.scss";
-@import "fork";
-@import "revolution";
-@import "what_you_get";
-@import "testimonials";
-@import "carousel";
-@import "pricing";
-@import "subscribe";
-@import "future";
-@import "footer";
 
 
 
@@ -18,8 +7,24 @@ body{
 }
 a {
   text-decoration: none;
+  &:hover{
+    text-decoration-line: none;
+  }
 }
-a:hover {
-  text-decoration: none;
-  color: #fff;
+
+li {
+  list-style-type: none;
 }
+
+
+@import "libs";
+@import "header";
+@import "fork";
+@import "revolution";
+@import "what_you_get";
+@import "people_talk";
+@import "carousel";
+@import "pricing";
+@import "subscribe";
+@import "future";
+@import "footer";

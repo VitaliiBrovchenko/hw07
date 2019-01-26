@@ -4,11 +4,12 @@
 .what_you_get h1 {
   color:#8d81ac;
   font-size: 35px;
-}
-.what_you_get h1:after {
-  content: '>';
-}
-.what_you_get h1:before {
-  content: '<';
   font-weight: 700;
+  &:after{
+    content: '>';
+  }
+  &:before {
+    content: '<';
+  }
+
 }

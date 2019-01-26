@@ -1,9 +1,7 @@
 header{
   font-family: 'Montserrat', sans-serif;
 }
-.row {
-  padding: 15px 0;
-}
+
 img{
   padding: 20px 0;
 }
@@ -13,17 +11,16 @@ img{
 }
 
 .menu_item {
-  list-style-type: none;
-  margin: 0 5px;
+    margin: 0 5px;
 }
 .menu_item a {
   color: #80687b;
   font-weight: 700;
 }
-.button {
-  padding: 23px 0;
+.butt_buy {
+  padding:  23px 0;
 }
-.button__buy_now {
+.butt__buy_now {
   border: 1px solid #a285a9 ;
   background-color: #a285a9;
   color: #fdeaeb;
