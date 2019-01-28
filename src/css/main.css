@@ -3447,17 +3447,37 @@ p {
 .what_you_get h1 {
   color: #8d81ac;
   font-size: 35px;
-  font-weight: 700; }
+  font-weight: 700;
+  text-align: left;
+  margin: 0; }
   .what_you_get h1:after {
     content: '>'; }
   .what_you_get h1:before {
     content: '<'; }
 
-.how_match_description {
-  word-wrap: break-word;
-  font-size: 11px;
-  padding: 20px;
-  color: #ffffff; }
+.advantages__img {
+  width: 100px;
+  height: 100px;
+  padding-right: 20px; }
+
+.advantages__title {
+  font-size: 12pt;
+  color: #000; }
+
+.advantages__text {
+  color: #9b9098;
+  font-size: 10pt;
+  text-align: left; }
+
+.crop {
+  overflow: hidden;
+  width: 700px;
+  height: 700px; }
+
+.crop_images {
+  min-height: 700px;
+  min-width: 700px;
+  clip: rect(40px, 0, 200px, 60px); }
 
 .people_talk {
   background: url(../img/base_copy.png) no-repeat center top/cover; }
@@ -3511,8 +3531,8 @@ p {
   background: url(../img/pricing.png) no-repeat center top/cover; }
 
 .pricing_col {
-  background-color: #ffffff / cover;
-  opacity: 0.1; }
+  background-color: #ffffff/transperent cover;
+  opacity: 0.7; }
 
 .pricing h1 {
   color: #ffffff;
