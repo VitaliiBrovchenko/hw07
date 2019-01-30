@@ -3347,10 +3347,11 @@ img {
 
 .menu {
   font-size: 14px;
-  padding: 24px 0; }
+  padding: 24px 0;
+  float: right; }
 
 .menu_item {
-  margin: 0 5px; }
+  margin: 0 20px; }
 
 .menu_item a {
   color: #80687b;
@@ -3419,14 +3420,15 @@ p {
   color: #e5d1d1;
   font-size: 12px;
   position: relative;
-  bottom: 45px; }
+  bottom: 35px; }
 
 .revolution h2 {
   color: #80687b;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 40pt;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 20px; }
 
 .revolution p {
   font-family: "Source Sanse Pro", sans-serif;
@@ -3557,7 +3559,8 @@ p {
   font-size: 17px;
   text-transform: uppercase;
   color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  padding-top: 20px; }
 
 .purchase_button {
   border: 1px solid #907480;
@@ -3574,7 +3577,8 @@ p {
 
 .how_match_description {
   font-size: 11px;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-top: 20px; }
 
 .per_month {
   color: #ffffff;
@@ -3610,4 +3614,117 @@ p {
   padding: 12px 55px;
   border-radius: 20px;
   font-size: 13px;
+  text-align: left; }
+
+.email-input {
+  float: right;
+  margin-right: 20px; }
+
+.extension__title {
+  font-size: 28pt;
+  color: #dac5ce;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 38px; }
+
+.extension__subtitle {
+  color: #b79db7;
+  font-size: 12pt;
+  padding-bottom: 20px; }
+
+.extension__text {
+  font-size: 9pt;
+  color: #ab9ea5;
+  padding-bottom: 20px;
+  text-align: left; }
+
+.future__link {
+  color: #a285a9;
+  font-size: 10pt;
+  border: 1px solid #f4e1e2;
+  background-color: #f4e1e2;
+  padding: 10px 30px;
+  border-radius: 3px;
+  opacity: 0.5; }
+
+.release__title {
+  font-size: 28pt;
+  color: #dac5ce;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 38px; }
+
+.release__subtitle {
+  color: #b79db7;
+  font-size: 12pt;
+  padding-bottom: 20px; }
+
+.release__text {
+  font-size: 9pt;
+  color: #ab9ea5;
+  padding-bottom: 20px;
+  text-align: left; }
+
+.blog__title {
+  font-size: 28pt;
+  color: #dac5ce;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 38px; }
+
+.blog__subtitle {
+  color: #b79db7;
+  font-size: 12pt;
+  padding-bottom: 20px; }
+
+.blog__date {
+  font-size: 9pt;
+  color: #ab9ea5;
+  padding-bottom: 20px;
+  text-align: left; }
+
+.footer-line {
+  border-bottom: 3px solid #f4e1e2;
+  background: #f4e1e2;
+  opacity: 0.2;
+  position: relative;
+  bottom: 20px; }
+
+.footer__logo_p {
+  text-align: left;
+  font-size: 14pt;
+  color: #848e97; }
+
+.navigation__title {
+  color: #473232;
+  font-size: 16pt;
+  padding-top: 15px; }
+
+.navigation__menu {
+  padding: 0; }
+
+.navigation__link {
+  color: #a285a9;
+  font-size: 15pt;
+  text-decoration: none; }
+
+.contact__text {
+  color: #848e97;
+  font-size: 14pt;
+  text-align: left; }
+
+.contact__phone-number {
+  font-size: 28pt;
+  font-weight: 700;
+  color: #31384d;
+  padding-top: 7px; }
+
+.info__title {
+  padding-top: 15px;
+  color: #31384d;
+  font-size: 16pt; }
+
+.info__text {
+  color: #848e97;
+  font-size: 14pt;
   text-align: left; }
