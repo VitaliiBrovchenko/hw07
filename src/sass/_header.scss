@@ -11,10 +11,12 @@ img{
   float: right;
 }
 
-.menu_item {
+/*.menu_item */
+ .nav-item {
     margin: 0 20px;
 }
-.menu_item a {
+/*?--.menu_item a-->*/
+.nav-link  {
   color: #80687b;
   font-weight: 700;
 }
