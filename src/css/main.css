@@ -11,6 +11,9 @@ a {
 li {
   list-style-type: none; }
 
+p {
+  font-size: 12pt; }
+
 /*!
  * Bootstrap Grid v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -4094,49 +4097,49 @@ p {
 .testimonials__logo {
   text-align: center; }
 
-.followers {
+/*.followers {
   height: 50px;
   width: 240px;
   padding: 40px;
   margin: 10px 40px;
-  border-radius: 3px; }
-
-.followers_git {
-  background-color: #f3f3f3; }
-
+  border-radius: 3px;
+}
+.followers_git{
+  background-color: #f3f3f3;
+}
 .followers_git li {
   color: #000;
-  font-size: 21px; }
-
+  font-size: 21px;
+}
 .followers_twitter {
-  background: #26a6d1; }
-
-.followers_twitter li {
+  background: #26a6d1;
+}
+.followers_twitter li{
   color: #fff;
-  font-size: 21px; }
-
+  font-size: 21px;
+}
 .followers_fb {
-  background: #3b5998; }
-
-.followers_fb li {
+  background: #3b5998;
+}
+.followers-facebook li {
   color: #fff;
-  font-size: 21px; }
-
+  font-size: 21px;
+}*/
 .followers p {
   color: #ebd6d6;
-  font-size: 14px; }
+  font-size: 12pt; }
 
 .pricing {
   background: url(../img/pricing.png) no-repeat center top/cover; }
 
-.pricing_col {
-  background-color: #ffffff/transperent cover;
-  opacity: 0.7; }
+.pricing__item-top {
+  background-color: #685b6a; }
 
 .pricing h1 {
   color: #ffffff;
   font-size: 35px;
-  font-weight: 700; }
+  font-weight: 700;
+  padding-bottom: 20px; }
 
 .pricing_line {
   border-bottom: 3px solid #ffffff;
@@ -4146,7 +4149,7 @@ p {
   bottom: 20px; }
 
 .line {
-  border-bottom: 3px solid #a285a9;
+  border-bottom: 5px solid #a285a9;
   width: 60px;
   padding: 20px;
   margin: 0 auto;
@@ -4157,23 +4160,22 @@ p {
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
-.purchase_button {
-  border: 1px solid #907480;
-  background-color: #907480;
+.pricing__item-bottom a {
+  border: 1px solid #766b79;
+  background-color: #766b79;
   width: 160px;
-  margin: 0 auto;
-  opacity: 0.3;
   padding: 10px 10px;
   border-radius: 18px;
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 12pt;
   text-align: center; }
 
 .how_match_description {
-  font-size: 11px;
+  font-size: 12pt;
   color: #ffffff;
   padding-top: 20px; }
 
@@ -4188,10 +4190,31 @@ p {
   font-size: 35px;
   font-weight: 700; }
 
-.purchase_button a {
-  color: #fff;
-  position: relative;
-  z-index: 50; }
+.pricing-text {
+  color: #8b7f8d;
+  font-size: 11pt;
+  text-align: center;
+  padding: 20px; }
+
+.pricing__item {
+  background: #5f5161;
+  max-width: 240px;
+  max-height: 360px;
+  opacity: 0.7;
+  margin: 10px;
+  padding: 0 0 20px 0; }
+  .pricing__item:nth-child(3) {
+    background: #6c455c;
+    max-width: 260px;
+    max-height: 660px;
+    position: relative; }
+    .pricing__item:nth-child(3) .how_match_price {
+      font-size: 45px; }
+    .pricing__item:nth-child(3) .pricing__item-top {
+      background-color: #4c2e3b; }
+    .pricing__item:nth-child(3) .pricing__item-bottom a {
+      border: 1px solid #815c69;
+      background-color: #815c69; }
 
 .subscribe {
   background-color: #f4f4f4; }

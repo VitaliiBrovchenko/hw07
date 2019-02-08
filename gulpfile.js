@@ -12,6 +12,7 @@ gulp.task('sass', function(){ // Создаем таск "sass"
             cascade: true
         }))
         .pipe(gulp.dest('src/css'))// Выгружаем результата в папку src/css
+        //.pipe(gulp.dest('dist/css'))// Выгружаем результата в папку dist/css
 
 
 });
