@@ -1,21 +1,18 @@
 $primary-color: #ffffff;
 
-body{
+/*body{
   background-color: #fff;
-}
-a {
+  font-family: Montserrat sans-serif;
+}*/
+/*a {
   color: $primary-color;
   text-decoration: none;
   &:hover{
     text-decoration-line: none;
   }
-}
-
+}*/
 li {
   list-style-type: none;
-}
-p {
-  font-size: 12pt;
 }
 
 
@@ -26,7 +23,7 @@ p {
 @import "revolution";
 @import "what_you_get";
 @import "people_talk";
-@import "carousel";
+@import "social";
 @import "pricing";
 @import "subscribe";
 @import "future";

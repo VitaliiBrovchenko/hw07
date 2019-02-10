@@ -1,18 +1,16 @@
-body {
-  background-color: #fff; }
-
-a {
-  color: #ffffff;
-  text-decoration: none; }
-  a:hover {
-    -webkit-text-decoration-line: none;
-            text-decoration-line: none; }
-
+/*body{
+  background-color: #fff;
+  font-family: Montserrat sans-serif;
+}*/
+/*a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover{
+    text-decoration-line: none;
+  }
+}*/
 li {
   list-style-type: none; }
-
-p {
-  font-size: 12pt; }
 
 /*!
  * Bootstrap Grid v4.2.1 (https://getbootstrap.com/)
@@ -4097,37 +4095,78 @@ p {
 .testimonials__logo {
   text-align: center; }
 
-/*.followers {
+.usr-pic {
+  border-radius: 50%;
+  padding: 0 20px; }
+
+.carousel__user-name {
+  font-size: 24pt;
+  font-weight: 700;
+  color: #635c73;
+  margin: 0; }
+
+.carousel__user-nickname {
+  color: #8d81ac;
+  font-size: 16pt; }
+
+.carousel-indicators li {
+  background-color: #000000; }
+
+.carousel__user-message {
+  padding-top: 20px;
+  font-size: 12pt;
+  color: #333333; }
+
+.carousel__time {
+  font-size: 12pt;
+  color: #aab0b6; }
+
+.carousel__user-linc {
+  color: #9f95b8; }
+
+.followers__btn {
+  border-radius: 4px;
+  padding: 10px 30px;
+  margin: 10px;
   height: 50px;
-  width: 240px;
-  padding: 40px;
-  margin: 10px 40px;
-  border-radius: 3px;
-}
-.followers_git{
+  width: 240px; }
+
+.followers__btn-git {
   background-color: #f3f3f3;
-}
-.followers_git li {
   color: #000;
-  font-size: 21px;
-}
-.followers_twitter {
+  font-size: 21px; }
+
+.followers__btn-twitter {
   background: #26a6d1;
-}
-.followers_twitter li{
   color: #fff;
-  font-size: 21px;
-}
-.followers_fb {
+  font-size: 21px; }
+
+.followers__btn-facebook {
   background: #3b5998;
-}
-.followers-facebook li {
   color: #fff;
-  font-size: 21px;
-}*/
-.followers p {
+  font-size: 21px; }
+
+.followers__quantity {
   color: #ebd6d6;
-  font-size: 12pt; }
+  font-size: 12pt;
+  margin: 10px;
+  display: block; }
+
+.followers li {
+  text-align: center; }
+
+.followers__line {
+  border-bottom: 2px solid #f4f4f4;
+  background: #f4f4f4;
+  bottom: 20px;
+  margin: 0 auto; }
+
+.carousel__text-block {
+  margin: 0 auto; }
+
+@media screen and (max-width: 480px) {
+  .carousel__line {
+    display: none; } }
 
 .pricing {
   background: url(../img/pricing.png) no-repeat center top/cover; }

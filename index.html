@@ -82,6 +82,9 @@
 <section class="what_you_get">
     <div class="container">
         <div class="row">
+            <div class="col-md-6">
+                <h1> Here is what you get</h1>
+            </div>
             <div class="col-6">
                 <ul>
                     <li>
@@ -132,45 +135,97 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-6">
-                <h1> Here is what you get</h1>
-                <div class="crop">
+            <div class="col-md-6">
+
+                <!--<div class="crop">
                     <img class="crop_images" src="src/img/code.png">
-                </div>
+                </div>-->
             </div>
         </div>
 
     </div>
 </section>
-<section class="carousel">
+<section class="social">
+<div id="#carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="container carousel-inner">
+        <div class="carousel-item active">
+            <div class="col-md-12 row justify-content-center">
+                <img class="usr-pic" src="src/img/userpic.png" alt="user picture">
+                <div class="carousel__user-block">
+                    <h3 class="carousel__user-name">Steven Strange</h3>
+                    <h3 class="carousel__user-nickname">@DoctorS</h3>
+                </div>
+            </div>
+            <div class="col-md-6 justify-content-center carousel__text-block">
+                <p class="carousel__user-message"><a href="#" class="carousel__user-linc">@Pixelbuddha</a> Suspendisse sodales sem est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
+                <p class="carousel__time">2 hours ago</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="col-md-12 row justify-content-center">
 
+                <img class="usr-pic" src="src/img/userpic.png" alt="user picture">
+                <div class="carousel__user-block">
+                    <h3 class="carousel__user-name">Steven Strange</h3>
+                    <h3 class="carousel__user-nickname">@DoctorS</h3>
+                </div>
+            </div>
+            <div class="col-md-6 justify-content-center carousel__text-block">
+                <p class="carousel__user-message"><a href="#" class="carousel__user-linc">@Pixelbuddha</a> Suspendisse sodales sem est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
+                <p class="carousel__time">5 hours ago</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="col-md-12 row justify-content-center">
+                <img class="usr-pic" src="src/img/userpic.png" alt="user picture">
+                <div class="carousel__user-block">
+                    <h3 class="carousel__user-name">Steven Strange</h3>
+                    <h3 class="carousel__user-nickname">@DoctorS</h3>
+                </div>
+            </div>
+            <div class="col-md-6 justify-content-center carousel__text-block" >
+                <p class="carousel__user-message"><a href="#" class="carousel__user-linc">@Pixelbuddha</a> Suspendisse sodales sem est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
+                <p class="carousel__time">7 hours ago</p>
+            </div>
+        </div>
+        <a href="##carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a href="##carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+    <div class="col-md-6 followers__line"></div>
 
     <div class="col-md-12 justify-content-center">
         <ul class="followers row justify-content-center">
-            <li>
-                <a href="https://www.github.com" class="followers_git">
+            <li class="col-md-3">
+                <a href="https://www.github.com" class="followers__btn followers__btn-git">
                     <i class="fab fa-github"></i>
                     GitHub
                 </a>
-                <p>7 352 Followers</p>
+                <p class="followers__quantity">7 352 Followers</p>
             </li>
-            <li>
-                <a href="https://www.twitter.com" class="followers-twitter">
+            <li class="col-md-3">
+                <a href="https://www.twitter.com" class="followers__btn followers__btn-twitter">
                     <i class="fab fa-twitter"></i>
                     Twitter
                 </a>
-                <p>136 312 Followers</p>
+                <p class="followers__quantity">136 312 Followers</p>
             </li>
-            <li>
-                <a href="https://www.facebook.com" class="followers-facebook">
+            <li class="col-md-3 d-block">
+                <a href="https://www.facebook.com" class="followers__btn followers__btn-facebook">
                     <i class="fab fa-facebook"></i>
                     Facebook
                 </a>
-                <p>218 092 Followers</p>
+                <p class="followers__quantity">218 092 Followers</p>
             </li>
         </ul>
     </div>
-</section>
+</section> <!--3+-->
 <section class="people_talk">
     <div class="container">
         <div class="row">
@@ -243,7 +298,7 @@
     <div class="container">
         <div class="col-md-12 pricing_line"></div>
         <h1>Fork Subscription Pricing</h1>
-        <ul class="row justify-content-center align-items-md-center">
+        <ul class="row justify-content-center align-items-center">
             <li class="col-md-3 pricing__item">
                     <div class="pricing__item-top">
                     <h3 class="pricing_license">Student</h3>
@@ -305,7 +360,7 @@
             <p class="pricing-text">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         </div>
     </div>
-</section>
+</section><!--done-->
 <section class="subscribe">
     <div class="container">
         <div class="row justify-content-center">
