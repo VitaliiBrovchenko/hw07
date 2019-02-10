@@ -4383,7 +4383,7 @@ p {
 
 .footer__logo_p {
   text-align: left;
-  font-size: 14pt;
+  font-size: 12pt;
   color: #848e97; }
 
 .navigation__title {
@@ -4396,16 +4396,16 @@ p {
 
 .navigation__link {
   color: #a285a9;
-  font-size: 15pt;
+  font-size: 14pt;
   text-decoration: none; }
 
 .contact__text {
   color: #848e97;
-  font-size: 14pt;
+  font-size: 12pt;
   text-align: left; }
 
 .contact__phone-number {
-  font-size: 28pt;
+  font-size: 24pt;
   font-weight: 700;
   color: #31384d;
   padding-top: 7px; }
@@ -4417,5 +4417,5 @@ p {
 
 .info__text {
   color: #848e97;
-  font-size: 14pt;
+  font-size: 12pt;
   text-align: left; }
